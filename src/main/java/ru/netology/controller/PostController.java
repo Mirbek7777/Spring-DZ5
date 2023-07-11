@@ -45,8 +45,5 @@ public class PostController {
     return service.allPosts();
   }
 }
-  @DeleteMapping("/{id}")
-  public void removeById(long id, HttpServletResponse response) {
-    // TODO: deserialize request & serialize response
-  }
-}
+
+
